@@ -206,14 +206,47 @@ Public Function descriptionFixLtoO()
             eValString = "ARTIFICIAL JEWELRY"
             Range("A1").Offset(i, 14).Value = (eValString)
             
-        ElseIf (eVal = "ART STONES") Then
-            eValString = "ARTIFICIAL JEWELRY"
+        ElseIf (eVal = "T-SHIRTS") Then
+            eValString = "TOP SPX"
             Range("A1").Offset(i, 14).Value = (eValString)
             
-        ElseIf (eVal = "ART STONES") Then
-            eValString = "ARTIFICIAL JEWELRY"
+        ElseIf (eVal = "FABRIC") Then
+            eValString = "FABRIC SPX"
             Range("A1").Offset(i, 14).Value = (eValString)
-            
+              
+        ElseIf (eVal = "PILLOW") Then
+            eValString = "PILLOW SPX"
+            Range("A1").Offset(i, 14).Value = (eValString)
+        ElseIf (eVal = "SKIRT") Then
+            eValString = "SKIRT SPX"
+            Range("A1").Offset(i, 14).Value = (eValString)
+        ElseIf (eVal = "STOLE") Then
+            eValString = "STOLE SPX"
+            Range("A1").Offset(i, 14).Value = (eValString)
+        ElseIf (eVal = "CUSHION CVR") Then
+            eValString = "CUSHION COVER SPX"
+            Range("A1").Offset(i, 14).Value = (eValString)
+        ElseIf (eVal = "METAL-,ARTICLES") Then
+            eValString = "ARTIFICIAL JEWELRY SPX"
+            Range("A1").Offset(i, 14).Value = (eValString)
+        ElseIf (eVal = "FASHION-,ARTICLE") Then
+            eValString = "ARTIFICIAL JEWELRY SPX"
+            Range("A1").Offset(i, 14).Value = (eValString)
+        ElseIf (eVal = "FASHION-,STONE") Then
+            eValString = "ARTIFICIAL JEWELRY SPX"
+            Range("A1").Offset(i, 14).Value = (eValString)
+        ElseIf (eVal = "FASHION-,BEADS") Then
+            eValString = "ARTIFICIAL JEWELRY SPX"
+            Range("A1").Offset(i, 14).Value = (eValString)
+        ElseIf (eVal = "TOYS") Then
+            eValString = "PLUSH TOY"
+            Range("A1").Offset(i, 14).Value = (eValString)
+        ElseIf (eVal = "SKIRTS") Then
+            eValString = "SKIRT SPX"
+            Range("A1").Offset(i, 14).Value = (eValString)
+        ElseIf (eVal = "LDS DRESS") Then
+            eValString = "LDS DRESS SPX"
+            Range("A1").Offset(i, 14).Value = (eValString)
             
         End If
     Next i
